@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	padding:0px;
+	margin: 0px;
+	overflow: hidden;
+	height: 120vh;
+}
+
+
+.container
+{
+	width:100%;
+	height:3000px;
+	background-color: #efefef;
+	margin: 0 auto;
+	overflow-y: scroll;
+	scroll-behavior:smooth;
+}
+/*instagram*/
+nav
+{
+	top:87%;
+	width: 100%;
+	height:50px;
+	position: fixed;
+	z-index:3;
+	left:5%;
+	font-size: 20px;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+}
+nav ul li
+{
+	padding: 20px 10px 10px 20px;
+	float: left;
+}
+nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+#trangchu 
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	height:120vh;
+	background-color: #fdd71c;	
+	
+}
+#mucluc 
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	height:120vh;
+	background-color: white;	
+	
+}
+#gioithieu
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	height:120vh;
+	background-color: blue;	
+	
+}
+#lienhe
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	height:120vh;
+	background-color: darkorange;	
+	
+}
+
+/*nut tron*/
+.nav01
+{
+	top:45%;
+	padding:10px;
+	width: 5%;
+	height:100%;
+	position: fixed;
+	z-index:2;
+	left: 90%;
+	font-size:20px;
+}
+.nav01 ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav01 ul li
+{
+	padding: 10px 0px 10px 0px;
+	
+}
+.home_left
+{
+	width: 55%;
+	height: 120vh;
+	float:left;	
+	font-size:20px;
+	
+	
+}
+.home_left .home_content
+{
+	width: 50%;
+	height: 50%;
+	margin: 30% 0% 0% 15%;
+	
+}
+
+.home_left .home_content p
+{
+	color: white;
+	font-size: 15px;
+	animation: fadeInLeft 3s forwards;
+}
+
+.home_left .home_content img
+{
+	margin-top: 15px;
+	line-height: 10px;
+}
+
+.home_right
+{
+	width:48%;
+	float: right;
+	height:100%;
+	background-color: #fdd71c;
+		
+	}
+
+.home_left h3
+{
+	font-size:30px;
+	animation: fadeInLeft 2s forwards;
+	
+}
+
+.home_right .home_image
+{
+    width: 80%;
+	height: 100%;;
+	
+	margin-top: 65px;
+}
+
+.home_right .home_image img
+{
+	margin-left:7px;
+	margin-top: 140px;
+	width:200px;
+	
+}
+
+
+	/*NAV CHINH*/
+.nav02
+{
+	width: 100%;
+	height: 50px;
+	position: fixed;	
+	margin: 0 auto;
+	top: 5%;
+	z-index: 1;
+	padding-top: 15px;
+}
+
+.nav02_left
+{   
+	width: 50%;
+	height: 50px;
+	float: left;
+	line-height: 40px;
+	
+}
+
+.nav02_left a
+{
+	font-size: 20px;
+	color:black;
+	
+}
+.nav02_left .trangchu
+{
+	color: black;
+	font-size: 35px;
+}
+
+.nav02_right
+{	
+	width:30%;
+	height: 50px;
+	float: right;
+	
+	padding: 4px 10px 0px 100px;
+}
+
+.nav02_right ul li
+{
+	margin:0px 10px 0px 10px;
+	float: left;
+}
+
+.nav02 ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 100px;
+	
+}
+
+.nav02 ul li
+{
+	padding: 0px 10px 0px 10px;
+	float: left;
+}
+.nav02 ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+
+.mucluc_left
+{
+	width: 70%;
+	height: 120vh;
+	float:left;	
+	font-size:20px;	
+	background-color: #fdcd04;
+		
+}
+.home_right
+{
+	width:30%;
+	float: right;
+	height:100%;
+}
+
+.mucluc_content
+
+{
+	width: 50%;
+	height: 50%;
+	margin: 30% 0% 0% 12%;
+	
+}
+.mucluc_left .mucluc_content
+{
+	color: white;
+	font-size: 15px;
+	animation: fadeInLeft 3s forwards;
+}
+
+.mucluc_left h3
+{
+	color:black;
+	font-size:40px;
+	animation: fadeInLeft 2s forwards;	
+}
+.mucluc_left p
+{
+	font-size: 16px;
+}
+
+.mucluc_right
+{
+	width:30%;
+	float: right;
+	height:100%;
+	background-color: antiquewhite;		
+}
+
+.mucluc_right .mucluc_image
+{
+    width: 80%;
+	height: 100%;	
+	margin-top: 65px;
+}
+
+.mucluc_right .mucluc_image img
+{
+	margin-left:-80px;
+	margin-top: 200px;
+	width:150px;
+	border: 1px solid black;
+}
+hr
+{
+	margin-left: 0px;
+}
